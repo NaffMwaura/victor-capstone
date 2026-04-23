@@ -1,7 +1,7 @@
 // src/components/OnlinePresence.tsx
 
 import React from 'react';
-import { FaLinkedin, FaGithub, FaBlogger, FaYoutube, FaLink } from 'react-icons/fa';
+import {FaGithub, FaBlogger, FaYoutube, FaLink } from 'react-icons/fa';
 
 interface Platform {
     name: string;
@@ -13,9 +13,8 @@ interface Platform {
 
 
 const platforms: Platform[] = [
-    { name: "LinkedIn Profile", url: "https://www.linkedin.com/in/naff-mwaura-2bb415257/", icon: <FaLinkedin className="text-4xl text-blue-400" />, description: "Professional networking and career history." },
-    { name: "GitHub Repository", url: "https://github.com/NaffMwaura/", icon: <FaGithub className="text-4xl text-gray-400" />, description: "Source code, projects, and version control activities." },
-    { name: "Facebook", url: "https://www.facebook.com/naftali.mwaura.352343/", icon: <FaBlogger className="text-4xl text-orange-400" />, description: "Sharing insights on BBIT, data analysis, or IT concepts." },
+    { name: "GitHub Repository", url: "https://github.com/gisioraelvis/", icon: <FaGithub className="text-4xl text-gray-400" />, description: "Source code, projects, and version control activities." },
+    { name: "Facebook", url: "https://www.facebook.com/100094263223978", icon: <FaBlogger className="text-4xl text-orange-400" />, description: "Sharing insights on BBIT, data analysis, or IT concepts." },
     { name: "Vlog / YouTube Channel", url: "https://www.youtube.com/@Naf_Zoe", icon: <FaYoutube className="text-4xl text-red-500" />, description: "Video content related to technology tutorials or project demos." },
     { name: "Personal Tech Portfolio", url: "https://naffzoe-portfolio.netlify.app/", icon: <FaLink className="text-4xl text-green-400" />, description: "A separate portfolio showcasing smaller coding projects." },
 ];
